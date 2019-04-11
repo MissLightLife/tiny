@@ -1,0 +1,28 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /love
+student:
+  age: 23
+  name: 王飞
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://106.14.238.126:3306/beadwalletloan?autoReconnect=true&useUnicode=true&zeroDateTimeBehavior=convertToNull&useServerPrepStmts=false&rewriteBatchedStatements=true
+    username: root
+    password: beadwallet.mysql@2016
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+#  devtools:
+#    remote:
+#      restart:
+#        enabled: true
+#    restart:
+#      additional-paths: src/main/java
+#      exclude: webapp/WEB-INF/views
