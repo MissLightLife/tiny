@@ -13,7 +13,7 @@ spring:
   datasource:
     url: jdbc:mysql://106.14.238.126:3306/beadwalletloan?autoReconnect=true&useUnicode=true&zeroDateTimeBehavior=convertToNull&useServerPrepStmts=false&rewriteBatchedStatements=true
     username: root
-    password: beadwallet.mysql@2016
+    password: 1111
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
